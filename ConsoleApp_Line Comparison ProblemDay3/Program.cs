@@ -31,9 +31,13 @@ namespace ConsoleApp_Line_Comparison_ProblemDay3
             {
                 Console.WriteLine("Lines are Equal");
             }
+            else if (lengthOfFirstLine > lengthOfSecondLine)
+            {
+                Console.WriteLine("First Line is Greater than Second Line");
+            }
             else
             {
-                Console.WriteLine("Lines are not Equal");
+                Console.WriteLine("First Line is lesser than Second Line");
             }
         }
     }
